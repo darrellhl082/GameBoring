@@ -152,8 +152,8 @@ void Player::damaged(Player* enemy, int position){
                 check_continue = is_continue();  
                 enemy_check = false;
             } else {
-                cout << "You die, you lose" << endl;
                 delete this;
+                cout << "You Lose, NOOB" << endl;
                 check_continue = false;
             }
         }
